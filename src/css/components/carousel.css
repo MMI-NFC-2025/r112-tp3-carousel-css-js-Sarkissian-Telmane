@@ -1,7 +1,7 @@
 /* Limite la largeur maximale de l'image à 100% de son conteneur - https://developer.mozilla.org/fr/docs/Web/CSS/max-width */
 /* Ajuste la hauteur de l'image automatiquement pour conserver les proportions - https://developer.mozilla.org/fr/docs/Web/CSS/height */
 img {
-  max-width: 100%;
+  max-width: max-content;
   height: auto;
 }
 
@@ -22,7 +22,7 @@ Les margin négatifs à gauche et à droite corresponde à l'éespace entre le n
   display: flex;
   gap: 16px;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
   margin-top: 16px;
   margin-bottom: 16px;
   /* Utilise flexbox pour aligner les éléments enfants - https://developer.mozilla.org/fr/docs/Web/CSS/display */
